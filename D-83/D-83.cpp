@@ -18,6 +18,13 @@ int main() {
 	cout << "\tHow are you?  I am fine.  Miss you.  ";
 	cout << "Looking forward to the holidays, I know you must be as well.\n";
 	cout << "Looks like we may get some snow, not sure about that though...\n";
+
+	string friend_name;
+	cout << "\nPlease endter the name of a friend:\n";
+	cin >> friend_name;
+	cout << "Have you seen " << friend_name << " lately?\n";
+
+
 	keep_window_open();
 	return(0);
 }
