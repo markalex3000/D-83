@@ -11,10 +11,13 @@ using namespace std;
 inline void keep_window_open() { char ch; cin >> ch; }
 
 int main() {
-	cout << "please enter your first name (followed by 'enter'): \n";
+	cout << "please enter the name of the person you want to write to (followed by 'enter'): \n";
 	string first_name;
 	cin >> first_name;
-	cout << "hello, " << first_name << "!\n";
+	cout << "Dear " << first_name << ",\n";
+	cout << "\tHow are you?  I am fine.  Miss you.  ";
+	cout << "Looking forward to the holidays, I know you must be as well.\n";
+	cout << "Looks like we may get some snow, not sure about that though...\n";
 	keep_window_open();
 	return(0);
 }
